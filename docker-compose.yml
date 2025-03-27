@@ -16,8 +16,6 @@ services:
       - lab-es-net
     ports:
       - 9200:9200
-    command: >
-      bin/elasticsearch-plugin install analysis-phonetic
   
   lab-kibana:
     container_name: lab-kibana-container
